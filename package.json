@@ -1,0 +1,23 @@
+{
+  "name": "continious-integration",
+  "version": "1.0.0",
+  "description": "Continious Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alikarim/continious-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alikarim/continious-integration/issues"
+  },
+  "homepage": "https://github.com/alikarim/continious-integration#readme",
+  "devDependencies": {
+    "jest": "^24.4.0"
+  }
+}
