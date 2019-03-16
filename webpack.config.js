@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     entry: './js/index.js',
-    watch: true,
+    watch: false,
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'bundle.js',
@@ -25,7 +25,7 @@ module.exports = {
         ]
     },
     devServer: {
-        writeToDisk: true
+        writeToDisk: false
     },
     optimization: {
         minimize: false
