@@ -8,6 +8,8 @@ files:
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
+      timeout: 300
+      runas: root
     - location: scripts/clean_up.sh
       timeout: 300
       runas: root
