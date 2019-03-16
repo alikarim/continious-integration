@@ -1,3 +1,6 @@
+body {
+    background-color: darkgoldenrod;
+}
 #clock {
     font-size: 24px;
     color: navy;
