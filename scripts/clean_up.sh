@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo rm -rf /var/www/html/{*,.*} 2> /dev/null
+sudo rm -rf /var/www/html && sudo mkdir /var/www/html
