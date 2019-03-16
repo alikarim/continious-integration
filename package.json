@@ -4,7 +4,9 @@
   "description": "Continious Integration",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
